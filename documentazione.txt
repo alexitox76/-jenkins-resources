@@ -1,0 +1,7 @@
+per accedere a mysql:
+mysql -u root -p (poi verrà chiesta la password)
+
+per visualizzare tutti i db:
+show databases;
+
+

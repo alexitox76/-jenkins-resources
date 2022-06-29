@@ -1,0 +1,7 @@
+### Terraform ###
+# Local Jenkins folder
+/jenkins_home/*
+
+# Local mysql folder
+/db_data/*
+
