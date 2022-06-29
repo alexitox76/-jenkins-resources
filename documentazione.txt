@@ -1,7 +1,29 @@
-per accedere a mysql:
+Per accedere a mysql:
 mysql -u root -p (poi verrà chiesta la password)
 
-per visualizzare tutti i db:
+Inserire anche l'host remoto :
+mysql -u root -h db_host -p
+
+Per visualizzare tutti i db:
 show databases;
 
+Creare un DB :
+create database testdb;
 
+Per usare il db :
+use testdb
+
+Per creare una tabella:
+create table info (name varchar(20), lastname varchar(20), age int(2));
+
+Per mostrare una tabella:
+show tables;
+
+Per mostrare la struttura della tabella :
+desc info; (desc significa describe, info è il nome della tabella)
+
+Per Inserire dati nella tabella :
+insert into info values ('ricardo','gonzalez','21')
+
+Per visualizzare dati dalla tabella:
+select * from info;
